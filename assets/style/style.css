@@ -1,0 +1,21 @@
+.h-min-100{
+    min-height: 100vh;
+}
+.h-50-vh{
+    height: 50vh !important;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+.text-decoration-none{
+    text-decoration: none !important;
+}
+.ml-minus-1{
+    margin-left: -1rem !important;
+}
+.border-radius-contact{
+    border-radius: 0 25%;
+}
+.border-bottom-white{
+    border-bottom: 2px solid white !important;
+}
