@@ -1,9 +1,6 @@
 html {
     scroll-behavior: smooth;
   }
-.h-50-vh{
-    height: 50vh !important;
-}
 .overflow-x-scroll{
     overflow-x: scroll;
 }
@@ -25,15 +22,6 @@ html {
 .width-156{
     width: 156px !important
 }
-@media only screen and (min-width: 600px) {
-    .border-bottom-white{
-        border-bottom: 2px solid white !important;
-    }
-    .width-192{
-        width: 192px !important
-    }
-    
-}
 @media only screen and (max-width: 600px) {
     .border-bottom-white-phone{
         border-bottom: 2px solid white !important;
@@ -42,4 +30,28 @@ html {
         width: 96px !important
     }
 }
+@media only screen and (min-width: 600px) {
+    .border-bottom-white{
+        border-bottom: 2px solid white !important;
+    }
+    .width-192{
+        width: 192px !important
+    }
+    .width-240{
+        width: 240px !important;
+    }
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 1800px){
+    .h-60-vh{
+        height: 60vh !important;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    .h-50-vh{
+        height: 50vh !important;
+    }
+}
+
+
 
