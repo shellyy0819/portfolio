@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 .h-50-vh{
     height: 50vh !important;
 }
@@ -16,7 +19,9 @@
 .border-radius-contact{
     border-radius: 0 25%;
 }
-
+.h-min-100{
+    min-height: 100vh;
+}
 @media only screen and (min-width: 600px) {
     .border-bottom-white{
         border-bottom: 2px solid white !important;
@@ -24,9 +29,7 @@
     .width-192{
         width: 192px !important
     }
-    .h-min-100{
-        min-height: 100vh;
-    }
+    
 }
 @media only screen and (max-width: 600px) {
     .border-bottom-white-phone{

@@ -4,6 +4,12 @@
 .bg-light-gray{
     background-color: #707070 !important;
 }
+.bg-new-gray{
+    background-color: #777777 !important;
+}
+.bg-new-dark-gray{
+    background-color: #333333 !important;
+}
 .bg-white{
     background-color: white !important;
 }
