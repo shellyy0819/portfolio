@@ -20,12 +20,12 @@
 </head>
 <body class="font-poppins">
     <div class="container-fluid bg-new-gray p-0">
-        <nav class="navbar navbar-dark bg-light bg-dark-gray p-3 fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-light bg-dark-gray p-3 fixed-top">
             <span class="navbar-brand mb-0 h1 font-500 px-3">Paras Dandwani</span>
             <button class="navbar-toggler px-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse px-3" id="navbarNav">
+            <div class="collapse navbar-collapse px-3 justify-content-end" id="navbarNav">
               <ul class="navbar-nav text-right">
                 <li class="nav-item">
                     <a class="nav-link" href="#intro">Introduction</a>
@@ -76,10 +76,12 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 py-md-5 bg-new-dark-gray" id="experiences">
-            <div class="d-flex flex-wrap text-white container px-0">
-                <div class="col-12 d-flex justify-content-center align-items-center">
-                    <h3 class="m-0 p-4 h2 font-600 text-decoration-underline">Experiences</h3>
+        <div class="container-fluid p-0 py-md-5 bg-new-dark-gray position-relative" id="experiences">
+            <img src="./assets/images/color_design_small_1.png" alt="" class="position-absolute d-none d-md-block width-156" style="top:30%;right:0;opacity: 0.7">
+            <img src="./assets/images/color_design_small_1_inverse.png" alt="" class="position-absolute d-none d-md-block width-156" style="top:60%;opacity: 0.7">
+            <div class="d-flex flex-wrap text-white container px-0 py-5 h-min-100">
+                <div class="col-12 d-flex justify-content-center align-items-center py-md-3">
+                    <h3 class="m-0 p-4 h2 font-600 text-decoration-underline">Experience</h3>
                 </div>
                 <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="gkmit">
                     <div class="col-12 col-md-4 py-3 d-flex justify-content-center align-items-center">
@@ -230,12 +232,13 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 py-md-5" id="education">
-            <div class="d-flex flex-wrap text-white container px-0" >
-                <div class="col-12 d-flex justify-content-center align-items-center">
+        <div class="container-fluid p-0 py-md-5 position-relative" id="education">
+            <img src="./assets/images/color_design_big.png" alt="" class="position-absolute d-none d-md-block" style="top:50%;right:0;transform: translateY(-50%);z-index: 0;opacity: 0.7;">
+            <div class="d-flex flex-wrap text-white container px-0 py-5 h-min-100" >
+                <div class="col-12 d-flex justify-content-center align-items-center py-md-3">
                     <h3 class="m-0 p-4 h2 font-600 text-decoration-underline">Education</h3>
                 </div>
-                <div class="col-12 d-flex justify-content-center flex-wrap" id="manit">
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="manit">
                     <div class="col-12 col-md-2 text-center py-3">
                         <img src="./assets/images/education/manit.png" alt="manit_logo" width="96">
                     </div>
@@ -247,7 +250,7 @@
                         <p class="font-400">GGPA - 8.14</p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center flex-wrap" id="jetking">
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="jetking">
                     <div class="col-12 col-md-2 text-center py-3">
                         <img src="./assets/images/education/jetking.png" alt="jetking_logo" width="96">
                     </div>
@@ -259,7 +262,7 @@
                         <p class="font-400">Certification in Hardware & OS</p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center flex-wrap" id="sjcs">
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="sjcs">
                     <div class="col-12 col-md-2 text-center py-3">
                         <img src="./assets/images/education/sjcs.png" alt="sjcs_logo" width="96">
                     </div>
@@ -272,7 +275,7 @@
                         <p class="font-400">Class X - 10 CGPA</p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center flex-wrap" id="niit">
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="niit">
                     <div class="col-12 col-md-2 text-center py-3">
                         <img src="./assets/images/education/niit.png" alt="niit_logo" width="96">
                     </div>
@@ -286,12 +289,12 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 py-md-5 bg-new-dark-gray" id="contact">
-            <div class="d-flex flex-wrap text-white container px-0">
+        <div class="container-fluid p-0 py-md-5 bg-new-dark-gray position-relative" id="contact">
+            <div class="d-flex flex-wrap text-white container align-items-between px-0 h-min-100">
                 <div class="col-12 d-flex justify-content-center align-items-center">
                     <h3 class="m-0 p-4 h2 font-600 text-decoration-underline">Contact me</h3>
                 </div>
-                <div class="col-11 col-md-4 d-flex flex-wrap align-items-center p-3 bg-white border-radius-contact h-50-vh mb-5 mx-auto">
+                <div class="col-11 col-md-4 d-flex flex-wrap align-items-center p-3 bg-white border-radius-contact h-50-vh w-50 mb-5 mx-auto">
                     <div class="w-100 text-dark text-center h2">
                         <p><i class="fas fa-heart text-danger"></i> my work?</p>
                         <p>Want to collab?</p>
@@ -320,6 +323,8 @@
                     </div>
                 </div>
             </div>
+            <img src="./assets/images/color_design_small_2.png" alt="" class="position-absolute d-none d-md-block width-156" style="bottom:0;right:0;opacity: 0.7">
+            <img src="./assets/images/color_design_small_2_inverse.png" alt="" class="position-absolute d-none d-md-block width-156" style="top:0;opacity: 0.7">
         </div>
         
     </div>
