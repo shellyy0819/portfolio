@@ -1,0 +1,11 @@
+body{
+    background-color:#093545 ;
+    color:#FFFFFF;
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    box-align:center;
+  }
+  p{
+       font-family: 'Lexend Deca', sans-serif;
+       font-size: 16px;
+  }
