@@ -22,6 +22,10 @@ html {
 .width-156{
     width: 156px !important
 }
+.border-radius-skils{
+    border-radius: 50%
+}
+
 @media only screen and (max-width: 600px) {
     .border-bottom-white-phone{
         border-bottom: 2px solid white !important;
