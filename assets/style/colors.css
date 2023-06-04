@@ -1,0 +1,33 @@
+.bg-dark-gray{
+    background-color: #2B2B2B !important;
+}
+.bg-light-gray{
+    background-color: #707070 !important;
+}
+.bg-new-gray{
+    background-color: #777777 !important;
+}
+.bg-new-dark-gray{
+    background-color: #333333 !important;
+}
+.bg-white{
+    background-color: white !important;
+}
+.text-white{
+    color: white !important
+}
+.text-green{
+    color: #2EFFD9 !important
+}
+.text-blue{
+    color: #37B1D9 !important
+}
+.text-maroon{
+    color: #8B025B !important
+}
+.text-dark-blue{
+    color: #3579F6 !important
+}
+.outline-dark-blue{
+    border: 2px solid #3579F6 !important
+}

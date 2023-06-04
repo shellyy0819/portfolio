@@ -1,19 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description" content="Shelly Agarwal - Web developer">
+    <meta name="keywords" content="Shelly, Shelly Agarwal, Shelly Agarwal India">
+    <meta name="author" content="Shelly Agarwal">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- GOOGLE FONT POPPINS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/fonts.css">
+    <link rel="stylesheet" href="./assets/style/colors.css">
+
+    <title>Shelly</title>
 </head>
-<body>
-    <p>Hi, my name is Shelly Agarwal</p>
-    <p>I am a Frontend Engineer</p>
+
+<body class="font-poppins">
+    <div class="container-fluid bg-new-gray p-0">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-light bg-dark-gray p-3 fixed-top">
+            <span class="navbar-brand mb-0 h1 font-500 px-3">Shelly Agarwal</span>
+            <button class="navbar-toggler px-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse px-3 justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid p-0 py-md-5" id="intro">
+            <div class="d-flex flex-wrap text-white container py-5 px-0 h-min-100">
+                <div class="col-12 pt-5 pb-3 d-flex justify-content-center align-items-center d-md-none">
+                    <h3 class="m-0 p-4 h2 font-600 text-green">Hey there,</h3>
+                </div>
+                <div class="col-12 d-flex justify-content-between flex-wrap-reverse">
+                    <div class="col-12 col-md-6 px-3 py-4 d-flex flex-wrap justify-content-center align-items-center">
+                        <p class="m-0 text-left font-400 font-size-1-3rem">
+                            <span class="h2 font-600 text-green d-none d-md-block">Hi! <br /></span>
+                            I am Shelly Agarwal
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 py-3 d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/shelly.jpeg" alt="" class="width-156 width-240">
+                    </div>
+                </div>
+                <div
+                    class="col-12 pt-5 pb-3 d-flex justify-content-left justify-content-md-center align-items-center overflow-x-scroll">
+                    <img src="./assets/images/skills/nextjs.png" alt="next_logo" height="78" class="m-2">
+                    <span class='bg-white h-[78px] w-[50px] border-radius-skils'>
+                        <img src="./assets/images/skills/React.webp" alt="my_sql_logo" height="60" class="m-2">
+                    </span>
+                    <!-- <span class='bg-white h-[65px] w-[60px] border-radius-skils'>
+                        <img src="./assets/images/skills/react-native.png" alt="react_native_logo" height="65px"
+                            class="m-2">
+                    </span> -->
+                    <img src="./assets/images/skills/js.png" alt="js_logo" height="78" class="m-2">
+                    <img src="./assets/images/skills/git.png" alt="git_logo" height="78" class="m-2">
+                    <img src="./assets/images/skills/css.png" alt="css_logo" height="78" class="m-2">
+                    <img src="./assets/images/skills/html.png" alt="html_logo" height="78" class="m-2">
+                    <img src="./assets/images/skills/node.png" alt="node_logo" height="78" class="m-2">
+                    <img src="./assets/images/skills/mongo_db.png" alt="mongo_db_logo" height="78" class="m-2">
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 py-md-5 bg-new-dark-gray position-relative" id="experiences">
+            <img src="./assets/images/color_design_small_1.png" alt=""
+                class="position-absolute d-none d-md-block width-156" style="top:30%;right:0;opacity: 0.7">
+            <img src="./assets/images/color_design_small_1_inverse.png" alt=""
+                class="position-absolute d-none d-md-block width-156" style="top:60%;opacity: 0.7">
+            <div class="d-flex flex-wrap text-white container px-0 py-5 h-min-100">
+                <div class="col-12 d-flex justify-content-center align-items-center py-md-3">
+                    <h3 class="m-0 p-4 h2 font-600 text-decoration-underline">Experience</h3>
+                </div>
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="gkmit">
+                    <!-- <div class="col-12 col-md-4 py-3 d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/experiences/gkmit.png" alt="gkmit_logo" class="width-96 width-192">
+                    </div> -->
+                    <div class="col-12 col-md-8 border-bottom-white-phone">
+                        <div class="d-flex flex-wrap justify-content-between border-bottom-white">
+                            <p class="col-12 col-md-8 font-600 h4 px-0">Project1: Indigg</p>
+                            <p class="font-200">February 2021 - Current</p>
+                            <h2 class='text-[18px] font-alkatra'><span class='font-bold'>Tech Stack:
+                                </span>React-Native,
+                                github,
+                                react-navigation, Nextjs, Tailwind, SASS, pm2, Jira, Trello</h2>
+                            <h2 class='text-[18px] font-alkatra'><span class='font-bold'>Project: Confidential</h2>
+                            <ul class="ml-minus-1">
+                                <li class="font-alkatra">Implemented UI and functionalities on the APP from scratch
+                                    where Gamer can login on the APP and transfer and receive money from/to others.</li>
+                                <li class="font-alkatra">Responsible for making custom and reusable components.</li>
+                                <li class="font-alkatra">Explored Animations and implemented in the app.</li>
+                                <li class="font-alkatra">Made static website to dynamic website using admin dashboard.
+                                </li>
+                                <li class="font-alkatra">Worked with Ux/Ui designers for feature improvement.</li>
+                                <li class="font-alkatra">Integrated pm2 package for task runners</li>
+                                <li class="font-alkatra">Maintained tech document for the feature to be implemented</li>
+                                <li class="font-alkatra">Worked on admin dashboard so that we can remove dependency of
+                                    Strapi and use admin APIs on website</li>
+                                <li class="font-alkatra">Integrated Sentry on website to track performance and issues
+                                </li>
+                                <li class="font-alkatra">Did migration of nextjs version 12 to 13 and also added
+                                    Typescript support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/color_design_small_2.png" alt=""
+                    class="position-absolute d-none d-md-block width-156" style="bottom:0;right:0;opacity: 0.7">
+                <div class="col-12 d-flex justify-content-center flex-wrap-reverse py-md-3" id="alpha_fortress">
+                    <div class="col-12 col-md-8 border-bottom-white-phone">
+                        <div class="d-flex flex-wrap justify-content-between border-bottom-white">
+                            <p class="col-12 col-md-8 font-600 h4 px-0">Project2: Vetic</p>
+                        </div>
+                        <p class="font-400">
+                        <h2 class='text-[20px]'><span class='font-bold'>Tech Stack: </span>ReactJS, Javascript, HTML,
+                            CSS,
+                            Material-ui, Bitbucket, Jira</h2>
+                        <li>Responsible for making reusable components.</li>
+                        <li>Creating responsive web pages from scratch.</li>
+                        <li>Maintaining code quality.</li>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="gkmit">
+                    <!-- <div class="col-12 col-md-4 py-3 d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/experiences/gkmit.png" alt="gkmit_logo" class="width-96 width-192">
+                    </div> -->
+                    <div class="col-12 col-md-8 border-bottom-white-phone">
+                        <div class="d-flex flex-wrap justify-content-between border-bottom-white">
+                            <p class="col-12 col-md-8 font-600 h4 px-0">Project3: Cuemath</p>
+                            <p class="font-200">February 2021 - Current</p>
+                            <h2 class='text-[18px] font-alkatra'><span class='font-bold'>Tech Stack:
+                                </span>ReactJS, Redux, Nextjs Javascript, HTML,
+                                CSS, Material-ui, Styled-components</h2>
+
+                            <ul class="ml-minus-1">
+                                <li>Building new features and maintaining old features.</li>
+                                <li>Helped back-end developers with coding and troubleshooting.</li>
+                                <li>Helping new joiners with the onboarding process.</li>
+                                <li>Participated in code reviews.</li>
+                                <li>Responsible for monitoring Sentry after deployment.</li>
+                                <li>Created designs for the task using Figma.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/color_design_small_2.png" alt=""
+                    class="position-absolute d-none d-md-block width-156" style="bottom:0;right:0;opacity: 0.7">
+                <div class="col-12 d-flex justify-content-center flex-wrap-reverse py-md-3" id="alpha_fortress">
+                    <div class="col-12 col-md-8 border-bottom-white-phone">
+                        <div class="d-flex flex-wrap justify-content-between border-bottom-white">
+                            <p class="col-12 col-md-8 font-600 h4 px-0">Project4: YoCharge</p>
+                        </div>
+                        <p class="font-400">
+                        <h2 class='text-[20px]'><span class='font-bold'>Tech Stack: </span>ReactJS, React-native, React
+                            query
+                            Javascript, HTML,
+                            CSS,
+                            Material-ui, Jira</h2>
+                        <li>Used Google play console and App Store for app releases.</li>
+                        <li>Implemented React query on existing codebase for improving data loading and performance.
+                        </li>
+                        <li>Responsible for code refactoring for both Android and IOS Apps.</li>
+                        <li>On website, contributed to different features using ReactJs and Typescript.</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center flex-wrap py-md-3" id="gkmit">
+                    <!-- <div class="col-12 col-md-4 py-3 d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/experiences/gkmit.png" alt="gkmit_logo" class="width-96 width-192">
+                    </div> -->
+                    <div class="col-12 col-md-8 border-bottom-white-phone">
+                        <div class="d-flex flex-wrap justify-content-between border-bottom-white">
+                            <p class="col-12 col-md-8 font-600 h4 px-0">Project5: Gateway International</p>
+                            <p class="font-200">June 2020 – Feb 2021</p>
+                            <h2 class='text-[18px] font-alkatra'><span class='font-bold'>Tech Stack:
+                                </span>ReactJS, Javascript, HTML, MongoDB, mongoose
+                                CSS, Material-ui, Node.js</h2>
+                            <ul class="ml-minus-1">
+                                <li>Contributed in developing Edysor City/Area Admin Panel, Edysor Edutech Solutions and
+                                    Edysor Partners</li>
+                                <li>Working on the Profile Evaluation section UI, functionality and developing APIs
+                                    where user can fill their data and based on that we can filter good college and
+                                    course for them
+                                </li>
+                                <li>Designed a Blog Section with responsive UI and developed APIs.</li>
+                                <li>Responsible for building high-quality, scalable and reusable components.</li>
+                                <li>Repsonsible for upkeeping of data using MongoDB.</li>
+                                <li>Worked on responsive UI pages, data-binding and building apis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid p-0 py-md-5 bg-new-dark-gray position-relative" id="contact">
+                    <div class="d-flex flex-wrap text-white container align-items-between px-0 h-min-100">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <h3 class="m-0 p-4 h2 font-600 text-decoration-underline">Contact me</h3>
+                        </div>
+                        <div
+                            class="col-11 col-sm-4 col-lg-6 d-flex flex-wrap align-items-center justify-content-center p-3 bg-white border-radius-contact h-70-vh h-50-vh w-50 mb-5 mx-auto">
+                            <div class="w-100 text-dark text-center h2">
+                                <p><i class="fas fa-heart text-danger"></i> my work?</p>
+                                <p>Want to collab?</p>
+                            </div>
+                            <div class="w-100 text-center">
+                                <button class="p-2 text-dark-blue outline-dark-blue btn font-600"><a href="">View
+                                        resume</a></button>
+                            </div>
+                            <div class="w-50 d-flex justify-content-between" style="font-size:1.8em;">
+                                <div class="w-30 float-left">
+                                    <a href="https://www.linkedin.com/in/shelly-agarwal-15b283152/" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <div class="w-30 float-left">
+                                    <a href="https://github.com/shellyy0819" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="w-30 float-left">
+                                    <a href="mailto:agrawalshelly11@gmail.cm" target="_blank">
+                                        <i class="far fa-envelope"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <img src="./assets/images/color_design_small_2_inverse.png" alt=""
+                        class="position-absolute d-none d-md-block width-156" style="top:0;opacity: 0.7"> -->
+                </div>
+            </div>
+            <!-- CUSTOM JS -->
+            <script src="./assets/js/index.js"></script>
+            <!-- Font Awesome -->
+            <script src="https://kit.fontawesome.com/88ecc5f85f.js" crossorigin="anonymous"></script>
+            <!-- BOOTSTRAP JS -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+                integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+                crossorigin="anonymous"></script>
 </body>
+
 </html>
